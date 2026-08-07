@@ -9,7 +9,7 @@ fieldset {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
-    border-color: #5c677d;
+    border-color: #979dac;
 }
 
 label {
@@ -24,7 +24,7 @@ legend {
     font-size: 18px;
 }
 
-fieldset > input {
+fieldset > input, #campoCor {
     padding: 8px 10px;
     border-radius: 15px;
     background-color: #cde6f5;
@@ -32,11 +32,11 @@ fieldset > input {
     font-size: 17px;
 }
 
-fieldset > input:hover {
+fieldset > input:hover, #campoCor:hover {
     background-color: #a2e0f9;
 }
 
-fieldset > input:focus {
+fieldset > input:focus, #campoCor:hover {
     background-color: #7ec2dd;
     outline: none;
 }
