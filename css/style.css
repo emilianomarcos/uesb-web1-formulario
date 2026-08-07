@@ -1,12 +1,42 @@
+#titulo {
+    color: #002855;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 fieldset {
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
-    border-color: #001233;
+    margin-bottom: 30px;
+    border-color: #5c677d;
+}
+
+label {
+    font-weight: bold;
+    font-size: 17px;
+    color: #001233;
 }
 
 legend {
     color: #023e7d;
-    text-transform: uppercase;
     letter-spacing: 1.1px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: #edf2f4;
+    border: 1px solid #023e7d;
+    font-size: 16px;
+}
+
+input[type="text"]:hover {
+    background-color: #a2e0f9;
+}
+
+input[type="text"]:focus {
+    background-color: #e2e2e2;
+    outline: none;
 }
